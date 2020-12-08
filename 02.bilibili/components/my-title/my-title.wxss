@@ -1,0 +1,38 @@
+/* components/my-title/my-title.wxss */
+
+.my_title{
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+  background-color: white;
+  border-bottom:2px solid gainsboro;
+  /* z-index: 9999; */
+}
+.logo{
+  flex: 7;
+}
+.search_icon{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.user_icon{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.down_app{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 30rpx;
+  background-color: pink;
+  color: #fff;
+  border-radius: 10rpx;
+  padding:10rpx;
+}

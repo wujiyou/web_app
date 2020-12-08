@@ -1,0 +1,121 @@
+.main{
+    padding: 10rpx;
+    color: #666;
+  }
+  /* 视频 */
+  .video_info{
+    margin-top: 10rpx;
+  }
+  .video_info video{
+    width: 100%;
+  
+  }
+  .vieo_title{
+   display: flex;
+   justify-content: space-around;
+   font-size: 35rpx
+  }
+  .video_detail{
+  margin-top: 5rpx;
+  font-size: 28rpx;
+  }
+  .video_detail text{
+    margin-left: 15rpx;
+  }
+  .video_detail .author{
+  color: #000;
+  }
+
+  .video_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10rpx;
+    justify-content: space-between;
+  }
+  .video_item{
+    width: 48%;
+    margin-bottom: 10rpx;
+  }
+  .video_img{
+    position: relative;
+  }
+  .video_img .video_info{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 0;
+    /* right: 5rpx; */
+    bottom: 10rpx;
+    width: 100%;
+    color: white;
+    font-size: 24rpx;
+  }
+  .video_img image{
+    width: 100%;
+    border-radius: 16rpx;
+  }
+  .video_count{
+    width: 24rpx;
+    padding-right: 24rpx;
+  }
+  .video_title{
+   font-size: 28rpx;
+   display: -webkit-box;
+   overflow: hidden;
+   white-space: normal;
+   text-overflow: ellipsis;
+   word-wrap: break-word;
+   -webkit-line-clamp:2 ;
+   -webkit-box-orient: vertical;
+  }
+
+  .comment_wrap{
+    margin-top: 10rpx;
+  }
+  .comment_title{
+    padding: 10rpx;
+    font-size: 28rpx;
+  }
+  .comment_list{
+  
+  }
+  .comment_item{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:10rpx;
+    padding: 20rpx;
+    border-bottom: 1px solid #666;
+  
+  }
+  .comment_user{
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    align-items: center;
+  }
+  .comment_user image{
+    width: 60%;
+    border-radius: 50%;
+  }
+  .comment_info{
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .comment_detail{
+    display:flex;
+    justify-content:space-between;
+  
+  }
+  .comment_detail .author{
+    font-size: 24rpx;
+    color:#666;
+  }
+  .comment_content{
+    font-size: 28rpx;
+    color:#000;
+  }
+  
+  
+  

@@ -1,0 +1,65 @@
+.main{
+    padding: 10rpx;
+    color: #666;
+  }
+
+  .nav wrap{
+  
+}
+.nav{
+  white-space: nowrap;
+  padding: 5rpx 0;
+  /* display: flex; */
+  /* position: fixed;
+  top:0; */
+}
+.nav_item{
+  /* padding: 0rpx 0rpx 20rpx 70rpx; */
+  /* margin: 0 0 0 40rpx; */
+  /* margin-left: 10rpx; */
+  /* display: flex; */
+  padding: 20rpx 40rpx;
+  font-size: 35rpx;
+  display: inline-block;
+
+}
+.nav_item.active{
+  border-bottom: 5rpx solid red;
+}
+  /* 推荐视频 */
+.other_list{
+    margin-top: 10rpx;
+  }
+  .item_other{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:20rpx;
+  }
+  
+  .other_img_wrap{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .other_img_wrap image{
+    width: 90%;
+    border-radius: 15rpx;
+  }
+  .other_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  .other_title{
+    font-size: 30rpx;
+    color:#e06f93;
+}
+  
+  .other_detail{
+      font-size: 26rpx;
+      color: #666;
+  }
+  

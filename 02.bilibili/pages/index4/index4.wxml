@@ -1,0 +1,225 @@
+<view class="main">
+  <my-title></my-title>
+  <view class="flex">
+
+    <!-- 首页导航 -->
+    <view class="nav_wrap">
+       <scroll-view class="nav" scroll-x>
+                <view class="nav_item">
+                    <navigator style="padding:5rpx 10rpx;">
+                        首页
+                    </navigator>
+                  
+                     <navigator style="padding:5rpx 10rpx;">动画</navigator>
+                    <navigator style="padding:5rpx 25rpx;">番外</navigator>
+                   
+                    <navigator style="padding:5rpx 25rpx;border-bottom:2px solid red;">国创</navigator>
+                      <navigator style="padding:5rpx 25rpx;">音乐</navigator>
+                    <navigator style="padding:5rpx 25rpx;">鬼畜</navigator>
+                    <navigator style="padding:5rpx 25rpx;">舞蹈</navigator>
+                    <navigator style="padding:5rpx25rpx;">游戏</navigator>
+                    <navigator style="padding:5rpx 25rpx;">电影</navigator>
+                    <navigator style="padding:5rpx 25rpx;">直播</navigator>
+                    <navigator style="padding:5rpx 25rpx;">推荐</navigator>
+                    <navigator style="padding:5rpx 25rpx;">动漫</navigator>
+                   
+                    <navigator style="padding:5rpx 25rpx;">科技</navigator>
+                    <navigator style="padding:5rpx 25rpx;">热门</navigator>
+                    <navigator style="padding:5rpx 25rpx;">影视</navigator>
+                    <navigator style="padding:5rpx 25rpx;">70年</navigator>
+                </view>
+            </scroll-view>
+    </view>
+    <!-- 二级导航 -->
+    <view class="nav__wrap">
+      <scroll-view class="nav_" scroll-x>
+        <view class="nav__item">
+          <navigator style="padding:5rpx 10rpx;color:pink;">推荐</navigator>
+          <navigator style="padding:5rpx 10rpx;">MAD.AMV</navigator>
+          <navigator style="padding:5rpx 10rpx;">MMD.3D</navigator>
+          <navigator style="padding:5rpx 10rpx;">短手.手书.配音</navigator>
+          <navigator style="padding:5rpx 10rpx;">综合</navigator>
+          <navigator style="padding:5rpx 10rpx;">特摄</navigator>
+        </view>
+      </scroll-view>
+    </view>
+    <!-- 轮播图 -->
+    <!-- <view class="sliders">
+        <swiper autoplay indicator-dots indicator-color="white" indicator-active-color="red" circular interval="1000">
+            <swiper-item>
+                <image mode="widthFix" src="../../images/05.jpg"></image>
+            </swiper-item>
+            <swiper-item>
+                <image mode="widthFix" src="../../images/04.jpg"></image>
+            </swiper-item>
+            <swiper-item>
+                <image mode="widthFix" src="../../images/07.jpg"></image>
+            </swiper-item>
+            <swiper-item>
+                <image mode="widthFix" src="../../images/11.jpg"></image>
+            </swiper-item>
+            </swiper>
+        </view> -->
+  </view>
+
+  <view class="toop">
+    <view class="will">
+      <view class="will_">
+        <navigator>热门推荐</navigator>
+        <navigator style="color:orange;">
+          排行榜
+          <text style="padding-left:10rpx;">></text>
+        </navigator>
+      </view>
+    </view>
+    <!-- </view> -->
+    <!-- 死数据 -->
+    <view class="video_wrap">
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/01.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/2.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/01.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/2.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/01.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/2.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/01.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+      <navigator class="video_item">
+        <view class="video_img">
+          <image mode="widthFix" src="../../images/2.jpg"></image>
+          <view class="video_info">
+            <view class="play_count_wrap">
+              <text class="fa fa-play-circle-o"></text>
+              <text class="play_count">196</text>
+            </view>
+            <view class="comment_count_row">
+              <text class="fa fa-play-commenting-o"></text>
+              <text class="comment_count">2122</text>
+            </view>
+          </view>
+        </view>
+        <view class="video_title">
+          按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+</view>

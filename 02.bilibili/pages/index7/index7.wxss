@@ -1,0 +1,117 @@
+ /* 视频 */
+  .video_info{
+    margin-top: 10rpx;
+  }
+  .video_info video{
+    width: 100%;
+  
+  }
+  .open-app-btn{
+    padding: 20rpx 10rpx;
+    background-color: lavenderblush;
+    color:gray;
+    font-size: 32rpx;
+    /* margin: 0 auto; */
+    margin: 0 20rpx;
+    border-radius: 5%;
+   display: flex;
+   justify-content: center;
+  }
+  .other_list{
+    margin: 20px 0;
+  }
+
+  .my_video{
+    display: flex;
+    justify-content:space-between;
+    margin:40rpx 0rpx;
+  }
+  .video_lt{
+    width: 40%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video_rt{
+    width: 60%;
+  }
+  .video_lt image{
+    width: 90%;
+    /* height: 200rpx; */
+    border-radius: 15rpx;
+  }
+  .title{
+    font-size:35rpx;
+    color:black;
+    /* text-align:left; */
+    padding-right: 60rpx;
+
+  }
+  .comment{
+    font-size:25rpx;
+    padding-top:5rpx;
+    color: gray;
+
+  }
+  .zui{
+    display: flex;
+    justify-content:space-around;
+    font-size: 30rpx;
+    color: gray;
+  }
+.xuan{
+  /* display: flex; */
+  font-size: 40rpx;
+  font-weight: bold;
+  padding: 30rpx 20rpx;
+  /* justify-content: space-around; */
+}
+.xuan_ text{
+  /* display: flex;
+  justify-content: space-around; */
+  margin: 40rpx 20rpx;
+  font-size: 30rpx;
+  padding: 20rpx 60rpx;
+  color:gray;
+  border-radius: 10%;
+  border: 1px solid gainsboro;
+  font-size: 24rpx;
+}
+  .item_other{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:20rpx;
+  }
+  
+  .other_img_wrap{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .other_img_wrap image{
+    width: 90%;
+    border-radius: 15rpx;
+  }
+  .other_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+  
+  }
+  .other_title{
+    font-size:30rpx;
+    color: #e06f93;
+  
+  }
+  .other_detail{
+    font-size: 26rpx;
+    color:#666;
+  }
+  .comment_count{
+    color: hotpink;
+    padding: 0 30rpx;
+  }
+  

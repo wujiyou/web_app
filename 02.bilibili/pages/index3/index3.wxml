@@ -1,0 +1,31 @@
+<view class="main">
+    <my-title></my-title>
+    <view class="nav_wrap">
+        <scroll-view class="nav" scroll-x>
+            <navigator bindtap="activeNav" data-index="{{index}}" class="nav_item {{index===currentIndexNav?'active':''}}" wx:for="{{navList}}" wx:key="{{index}}">
+                {{item.text}}
+            </navigator>
+        </scroll-view>
+    </view>
+    <!-- 视频推荐 -->
+    <view class="other_list">
+        <!-- 图片容器 -->
+        <navigator wx:for="{{othersList}}" wx:key="{{index}}" class="item_other">
+            <view class="other_img_wrap">
+                <image src="{{item.imgSrc}}" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">{{item.title}}</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">{{item.playMsg}}次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">{{item.commentCount}}次评论</text>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "视频详情",
+  "navigationBarBackgroundColor": "#8A2BE2",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "my-title": "../../components/my-title/my-title"
+  }
+}

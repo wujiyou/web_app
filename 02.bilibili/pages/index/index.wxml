@@ -1,0 +1,282 @@
+<view class="main">
+  <!-- 公共头部 -->
+  <my-title></my-title>
+  <!-- 首页导航 -->
+  <view class="nav_wrap">
+    <scroll-view class="nav" scroll-x>
+      <navigator bindtap="activeNav" data-index="{{index}}" class="nav_item {{index===currentIndexNav?'active':''}}" wx:for="{{navList}}" wx:key="{{index}}">{{item.text}}</navigator>
+    </scroll-view>
+
+    <!-- <scroll-view class="nav" scroll-x>
+      <view class="nav_item">
+        <navigator style="padding:5rpx 10rpx;border-bottom:2px solid red;">首页</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index1/index1">音乐</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">游戏</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">国创</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">鬼畜</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">舞蹈</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index1/index1">音乐</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">电影</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">直播</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">推荐</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">动漫</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">动画</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index1/index1">番外</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">科技</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">热门</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">影视</navigator>
+        <navigator style="padding:5rpx 10rpx;" url="../index2/index2">70年</navigator>
+      
+      </view>
+    </scroll-view> -->
+  </view>
+
+  <!-- 轮播图 -->
+  <view class="sliders">
+    <swiper autoplay indicator-dots indicator-color="white" indicator-active-color="red" circular interval="1000">
+      <swiper-item wx:for="{{swiperList}}" wx:key="{{index}}">
+        <navigator>
+          <image mode="widthFix" src="{{item.imgSrc}}"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 数据视屏列表 -->
+  <view class="video_wrap">
+    <navigator url="../detail/detail?id={{item.id}}" class="video_item" wx:for="{{videosList}}" wx:key="{{index}}">
+
+      <!-- 图片容器 -->
+      <view class="video_img">
+        <!-- 图片 -->
+        <image mode="widthFix" src="{{item.imgSrc}}"></image>
+        <!-- 播放量... -->
+        <view class="video_info">
+          <!--播放量 -->
+          <view class="play_count_wrap">
+            <!-- 图标 -->
+            <text class="fa fa-play-circle-o"></text>
+            <!-- 数值 -->
+            <text class="play_count">{{item.playCount}}</text>
+          </view>
+          <!-- 评论量 -->
+          <view class="comment_count_row">
+            <!-- 图标 -->
+            <text class="fa fa-play-commenting-o"></text>
+            <!-- 数值 -->
+            <text class="comment_count">{{item.commentCount}}</text> -->
+          </view>
+        </view>
+      </view>
+      <!-- 标题 -->
+      <view class="video_title">{{item.desc}}</view>
+    </navigator>
+  </view>
+
+  <!-- 写死的视屏列表 -->
+  <!-- <view class="video_wrap">
+
+    <navigator url="../detail/detail" class="video_item">
+
+     
+      <view class="video_img">
+       
+        <image mode="widthFix" src="../../images/01.jpg"></image>
+     
+        <view class="video_info">
+
+       
+          <view class="play_count_wrap">
+           
+            <text class="fa fa-play-circle-o"></text>
+        
+            <text class="play_count">196</text>
+          </view>
+
+   
+          <view class="comment_count_row">
+            
+            <text class="fa fa-play-commenting-o"></text>
+       
+            <text class="comment_count">2122</text>
+          </view>
+
+        </view>
+      </view>
+ 
+      <view class="video_title">
+        按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+      </view>
+    </navigator>
+
+    <navigator url="../detail/detail" class="video_item">
+
+   
+      <view class="video_img">
+     
+        <image mode="widthFix" src="../../images/2.jpg"></image>
+   
+        <view class="video_info">
+
+          
+          <view class="play_count_wrap">
+          
+            <text class="fa fa-play-circle-o"></text>
+            
+            <text class="play_count">414124</text>
+          </view>
+
+          
+          <view class="comment_count_row">
+           
+            <text class="fa fa-play-commenting-o"></text>
+            
+            <text class="comment_count">214124</text>
+          </view>
+
+        </view>
+      </view>
+  
+      <view class="video_title">
+        按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+      </view>
+    </navigator>
+
+    <navigator class="video_item">
+
+    
+      <view class="video_img">
+        
+        <image mode="widthFix" src="../../images/3.jpg"></image>
+      
+        <view class="video_info">
+
+       
+          <view class="play_count_wrap">
+          
+            <text class="fa fa-play-circle-o"></text>
+            
+            <text class="play_count">244</text>
+          </view>
+
+       
+          <view class="comment_count_row">
+          
+            <text class="fa fa-play-commenting-o"></text>
+            
+            <text class="comment_count">32545</text>
+          </view>
+
+        </view>
+      </view>
+   
+      <view class="video_title">
+        按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+      </view>
+    </navigator>
+
+    <navigator class="video_item">
+
+    
+      <view class="video_img">
+  
+        <image mode="widthFix" src="../../images/1.jpg"></image>
+        
+        <view class="video_info">
+
+        
+          <view class="play_count_wrap">
+        
+            <text class="fa fa-play-circle-o"></text>
+          
+            <text class="play_count">546456</text>
+          </view>
+
+
+          <view class="comment_count_row">
+            
+            <text class="fa fa-play-commenting-o"></text>
+           
+            <text class="comment_count">45645</text>
+          </view>
+
+        </view>
+      </view>
+      
+      <view class="video_title">
+        按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+      </view>
+    </navigator>
+
+    <navigator class="video_item">
+
+   
+      <view class="video_img">
+     
+        <image mode="widthFix" src="../../images/2.jpg"></image>
+      
+        <view class="video_info">
+
+         
+          <view class="play_count_wrap">
+        
+            <text class="fa fa-play-circle-o"></text>
+          
+            <text class="play_count">6456</text>
+          </view>
+
+       
+          <view class="comment_count_row">
+            
+            <text class="fa fa-play-commenting-o"></text>
+           
+            <text class="comment_count">676</text>
+          </view>
+
+        </view>
+      </view>
+     
+      <view class="video_title">
+        按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+      </view>
+    </navigator>
+
+    <navigator class="video_item">
+
+     
+      <view class="video_img">
+       
+        <image mode="widthFix" src="../../images/11.jpg"></image>
+        
+        <view class="video_info">
+
+          
+          <view class="play_count_wrap">
+           
+            <text class="fa fa-play-circle-o"></text>
+           
+            <text class="play_count">4566876</text>
+          </view>
+
+        
+          <view class="comment_count_row">
+           
+            <text class="fa fa-play-commenting-o"></text>
+            
+            <text class="comment_count">65566</text>
+          </view>
+
+        </view>
+      </view>
+      
+      <view class="video_title">
+        按实际发生绝地反击誓师大会更加是的不够撒的发生地方哈斯划分ISO而业委会的说法是否第三方红色的划分森林防火收到货覅诶符合
+      </view>
+    </navigator>
+
+  
+   
+
+  </view> -->
+
+</view>

@@ -1,0 +1,21 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index7/index7",
+    "pages/index6/index6",
+    "pages/index5/index5",
+    "pages/index4/index4",
+    "pages/index1/index1",
+    "pages/detail/detail",
+    "pages/index8/index8"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+ 
+  "sitemapLocation": "sitemap.json"
+}

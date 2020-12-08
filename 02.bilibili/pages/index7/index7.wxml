@@ -1,0 +1,206 @@
+<view class="main">
+    <my-title></my-title>
+    <view class="video_info">
+        <!-- 视频标签 -->
+        <video src="{{videoInfo.videoSrc}}" controls></video>
+        <!-- 视频标题 -->
+        <div class="open-app-btn">App内付费看全片</div>
+    </view>
+    <view class="my_video">
+        <view class="video_lt">
+            <image src="../../images/05.jpg" mode="widthFix"></image>
+        </view>
+        <view class="video_rt">
+            <view class="title">都是福建会计的房价来看</view>
+            <view class="comment">女性从都是撒上的菜</view>
+            <view class="comment">女性从都是撒上的菜徐新城</view>
+            <view class="comment">
+                <text>但是不真心只能保存vzxvzjs存在不只是觉得自行车把这些自行车被你们</text>
+            </view>
+        </view>
+    </view>
+    <view class="zui">
+        <text>追番</text>
+        <text>缓存</text>
+        <text>分享</text>
+    </view>
+    <view class="xuan">选集</view>
+    <view class="xuan_">
+        <text>第一话</text>
+        <text>第二话</text>
+        <text>第三话</text>
+    </view>
+    <view class="other_list">
+        <!-- 图片容器 -->
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="item_other">
+            <view class="other_img_wrap">
+                <image src="../../images/05.jpg" mode="widthFix"></image>
+            </view>
+            <!-- 视频详情 -->
+            <view class="other_info">
+                <!-- 标题 -->
+                <view class="other_title">是对方是否</view>
+                <!-- 播放量... -->
+                <view class="other_detail">
+                    <!-- 播放量 -->
+                    <text class="play_count">234564次观看</text>
+                    <!-- 评论 -->
+                    <text class="comment_count">2314564次评论</text>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>
