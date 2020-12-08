@@ -1,0 +1,34 @@
+
+.active.data-v-a78b728e {
+	background-image: -webkit-linear-gradient(left, #ccffff 0%, #ffcc00 100%);
+	background-image: linear-gradient(to right, #ccffff 0%, #ffcc00 100%);
+	border-top-right-radius: 50rpx;
+}
+.activeb.data-v-a78b728e {
+	color: #292c33 !important;
+	font-size: 23rpx !important;
+}
+.scroll.data-v-a78b728e {
+	white-space: nowrap;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: #FFFFFF;
+	padding: 20rpx 0;
+}
+.con-text-b.data-v-a78b728e {
+	color: #292c33;
+	font-size: 30rpx;
+	font-weight: bold;
+}
+.con-text-b.data-v-a78b728e {
+	color: #9ea0a5;
+	font-size: 23rpx;
+}
+.list-cont.data-v-a78b728e {
+	width: 180rpx;
+	display: inline-block;
+	text-align: center;
+}
+

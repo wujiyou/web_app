@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "飞猪旅游",
+  "usingComponents": {
+    "indexa": "/pages/components/indexa/indexa",
+    "indexb": "/pages/components/indexb/indexb",
+    "classify": "/pages/components/classify",
+    "content": "/pages/components/content",
+    "article": "/pages/components/article"
+  }
+}

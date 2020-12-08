@@ -1,0 +1,20 @@
+
+.ticket image.data-v-503fa34f{
+	width: 90rpx;
+	height: 90rpx;
+}
+.ticket.data-v-503fa34f{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	text-align: center;
+	margin: 30rpx 0;
+}
+.ticket text.data-v-503fa34f{
+	font-size: 30rpx;
+	display: block;
+	text-align: center;
+}
+
